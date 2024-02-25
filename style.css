@@ -8,7 +8,6 @@ body section {
 
 header {
   background-color: #212529;
-  padding: 20px 0 25px 0;
   z-index: -1;
 }
 header .imgbox {
@@ -19,12 +18,12 @@ header nav a {
   color: #fbfaf5;
   margin-right: 30px;
 }
-header .menu .textbox h1 {
+header .flex .textbox h1 {
   font-size: 25px;
   color: #259bca;
   display: none;
 }
-header .menu:hover a {
+header .flex:hover a {
   color: #ffc800;
   transition: 1s;
 }
@@ -32,9 +31,16 @@ header .menu:hover a {
   header nav {
     display: none;
   }
-  header .menu .textbox {
+  header .flex .textbox h1 {
     font-size: 25px;
-    color: #d31616;
-    border: 2px solid #d2cfcf;
+    color: #9d1a1a;
+    border: 2px solid #6a6363;
+    display: block;
   }
+}
+
+#welcome .box {
+  width: 800px;
+  height: 800px;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
