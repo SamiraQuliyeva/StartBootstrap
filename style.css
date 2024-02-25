@@ -19,7 +19,22 @@ header nav a {
   color: #fbfaf5;
   margin-right: 30px;
 }
-header nav:hover {
+header .menu .textbox h1 {
+  font-size: 25px;
+  color: #259bca;
+  display: none;
+}
+header .menu:hover a {
   color: #ffc800;
   transition: 1s;
+}
+@media screen and (max-width: 992px) {
+  header nav {
+    display: none;
+  }
+  header .menu .textbox {
+    font-size: 25px;
+    color: #d31616;
+    border: 2px solid #d2cfcf;
+  }
 }/*# sourceMappingURL=style.css.map */

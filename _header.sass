@@ -1,6 +1,5 @@
 header
     background-color: #212529
-    padding: 20px 0 25px 0
     z-index: -1
     .imgbox
         width: 140px
@@ -9,6 +8,23 @@ header
             font-size: 20px
             color: #fbfaf5
             margin-right: 30px
+    .flex
+        .textbox
+            h1
+                font-size: 25px
+                color: #259bca
+                display: none
         &:hover
-            color: #ffc800
-            transition: 1s
+            a
+                color: #ffc800
+                transition: 1s
+    @media screen and ( max-width: 992px  )
+        nav
+            display: none
+        .flex
+            .textbox
+                h1
+                    font-size: 25px
+                    color: #9d1a1a
+                    border: 2px solid #6a6363
+                    display: block
