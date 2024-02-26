@@ -2,7 +2,11 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-body section {
+
+.imgbox img {
+  width: 100%;
+}
+.imgbox section {
   padding: 50px 0;
 }
 
@@ -16,7 +20,7 @@ header .imgbox {
 header nav a {
   font-size: 20px;
   color: #fbfaf5;
-  margin-right: 30px;
+  margin-right: 70px;
 }
 header .flex .textbox h1 {
   font-size: 25px;
@@ -34,13 +38,14 @@ header .flex:hover a {
   header .flex .textbox h1 {
     font-size: 25px;
     color: #9d1a1a;
-    border: 2px solid #6a6363;
     display: block;
   }
 }
 
 #welcome .box {
-  width: 800px;
-  height: 800px;
+  width: 1100px;
+  height: 1100px;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }/*# sourceMappingURL=style.css.map */
