@@ -12,9 +12,9 @@ section {
 }
 
 header {
-  position: fixed;
   background-color: #212529;
   z-index: 1;
+  padding: 25px 0;
 }
 header .imgbox {
   width: 140px;
@@ -22,34 +22,40 @@ header .imgbox {
 header nav a {
   font-size: 21px;
   color: #fbfaf5;
-  padding: 0 25px 0 25px;
+  margin-right: 35px;
 }
-header .flex .textbox h1 {
-  font-size: 25px;
-  color: #259bca;
-  display: none;
-}
-header .flex:hover a {
+header:hover nav .home-color {
   color: #ffc800;
   transition: 1s;
+  cursor: pointer;
+}
+header .box .textbox h1 {
+  font-size: 20px;
+  color: #979c9e;
+  display: none;
+  margin: -2px 12px;
 }
 @media screen and (max-width: 992px) {
   header nav {
     display: none;
   }
-  header .flex .textbox h1 {
-    font-size: 25px;
-    color: #9d1a1a;
+  header .box .textbox h1 {
+    font-size: 20px;
+    color: #979c9e;
     display: block;
+    margin: -2px 12px;
+    border: 1px solid #665f5f;
+    padding: 6px 12px;
+    border-radius: 7px;
   }
 }
 
-#welcome .box .imgbox {
+#welcome .box {
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
   background-image: url("Assets/header-bg.jpg");
-  background-repeat: no-repeat;
-  width: 1700px;
-  height: 700px;
+  width: 100%;
 }
 #welcome .box .textbox h1 {
   font-size: 44px;
@@ -70,7 +76,7 @@ header .flex:hover a {
   font-weight: 700;
   padding: 15px 35px;
   background-color: #ffc800;
-  border-radius: 6px;
+  border-radius: 7px;
 }
 
 h1 {
@@ -103,4 +109,7 @@ h1, h3 {
 .textbox h2 {
   font-size: 25px;
   font-weight: 600;
+}
+.textbox h4 {
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
