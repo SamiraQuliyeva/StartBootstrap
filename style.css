@@ -110,11 +110,13 @@ header .box .textbox h1 {
 h1 {
   font-weight: 600;
   font-size: 35px;
+  font-family: sans-serif;
 }
 
 h3 {
   font-size: 20px;
   font-style: italic;
+  color: #817d7d;
 }
 
 h1, h3 {
@@ -123,13 +125,11 @@ h1, h3 {
 
 .textbox .icon {
   font-size: 73px;
-  margin: 50px;
+  margin: 28px 139px;
   color: white;
   background-color: #ffc800;
-  overflow: hidden;
   border-radius: 65px;
   width: 120px;
-  height: 120px;
 }
 .textbox .icon i {
   margin: 21px 15px;
@@ -137,7 +137,35 @@ h1, h3 {
 .textbox h2 {
   font-size: 25px;
   font-weight: 600;
+  font-family: sans-serif;
 }
 .textbox h4 {
-  font-size: 15px;
+  color: #817d7d;
+  font-size: 20px;
+  margin: 15px 2px;
+  line-height: 1.5;
+}
+@media screen and (min-width: 992px) {
+  .textbox h4 .textbox .icon {
+    font-size: 73px;
+    margin: 28px 46px;
+    color: white;
+    background-color: #ffc800;
+    border-radius: 65px;
+    width: 120px;
+  }
+  .textbox h4 .textbox .icon i {
+    margin: 28px 46px;
+  }
+  .textbox h4 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+  .textbox h4 h4 {
+    color: #817d7d;
+    font-size: 20px;
+    margin: 15px 2px;
+    line-height: 1.5;
+  }
 }/*# sourceMappingURL=style.css.map */
