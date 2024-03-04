@@ -160,4 +160,31 @@ h1, h3 {
     width: 120px;
     border-radius: 65px;
   }
+}
+
+#portfolio {
+  background-color: #f8f9fa;
+}
+#portfolio h3 {
+  margin-bottom: 65px;
+}
+#portfolio h2 {
+  margin-top: 15px;
+}
+#portfolio h4 {
+  font-style: italic;
+  padding-bottom: 9px;
+  margin-bottom: 13px;
+}
+#portfolio .box {
+  background-color: white;
+}
+#portfolio .box:hover .imgbox {
+  position: absolute;
+  top: 44px;
+  left: 33px;
+  width: 450px;
+  height: 450px;
+  background-color: #e9e928;
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */
