@@ -185,8 +185,16 @@ header .box .textbox h1 {
   font-size: 19px;
   margin-top: 11px;
 }
-#portfolio .box:hover .imgbox .minibox h5 {
-  color: white;
+#portfolio .box .textbox h5 {
+  display: none;
+}
+#portfolio .box .minibox h5 {
+  color: #433e3e;
+  font-size: 86px;
+}
+#portfolio .box:hover h5 {
+  display: block;
+  border: 1px solid #f2f247;
   background-color: #f2f247;
   font-size: 66px;
   font-weight: 700;
