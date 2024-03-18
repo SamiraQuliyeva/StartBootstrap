@@ -170,34 +170,64 @@ header .box .textbox h1 {
   margin-bottom: 58px;
   font-size: 19px;
 }
-#portfolio .box {
-  background-color: white;
-}
-#portfolio .box .textbox {
-  margin-bottom: 30px;
-}
-#portfolio .box .textbox h2 {
+#portfolio h2 {
   color: #100d0d;
   font-size: 29px;
   margin-top: 29px;
   font-weight: 700;
 }
-#portfolio .box .textbox h4 {
+#portfolio h4 {
   color: #726f6f;
   padding-bottom: 25px;
   font-size: 19px;
   margin-top: 11px;
 }
-#portfolio .box:hover .imgbox .icon {
-  text-align: center;
-  color: white;
-  display: block;
-  font-size: 67px;
-  background-color: #ffc800;
+#portfolio .box {
+  background-color: white;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+#portfolio .box .textbox {
+  padding: 0;
+}
+#portfolio .box .imgbox {
+  position: relative;
+}
+#portfolio .box .imgbox .icon {
   width: 100%;
-  height: 100%;
-  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
   position: absolute;
   top: 0;
-  left: 0;
+  bottom: 0;
+  opacity: 0;
+}
+#portfolio .box .imgbox .icon:hover {
+  background-color: #fb0;
+  opacity: 0.9;
+  transition: 0.5s;
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  #portfolio .box .imgbox {
+    width: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  #portfolio .textbox h1 {
+    font-size: 40px;
+  }
+  #portfolio .textbox h3 {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  #portfolio .box {
+    margin-bottom: 50px;
+  }
+  #portfolio .box .imgbox {
+    width: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
