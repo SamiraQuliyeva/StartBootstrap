@@ -1,7 +1,21 @@
 #our
     background-color: #c0c0c020
     .textbox
-
+        h1
+            font-size: 45px
+            font-weight: 600
+            margin: 35px 0
+        h3
+            font-size: 18px
+            color: #726f6f
+            margin-bottom: 35px
+        h2
+            font-size: 27px
+            font-weight: 600
+        h4
+            color: #726f6f
+            font-size: 19px
+            margin-top: 10px
     .box
         .imgbox
             width: 220px
@@ -20,25 +34,42 @@
                     justify-content: center
                     align-items: center
                     cursor: pointer
+                    border-radius: 30px
+                    background-color: #1a1919
+                    width: 40px
+                    height: 40px
+                    font-size: 17px
+                    margin: 0 12px
+                    color: #ffff
+                    &:hover
+                        background-color: #424649
+                        transition: 0.5s
     .textbox
         p
+            color: #726f6f
+            margin-top: 14px
+            font-size: 19px
+            margin: 46px 238px
+            line-height: 1.5
 
     @media screen and ( max-width: 576px )
         .textbox
-
+            h2
+                font-size: 24px
+            h4
+                font-size: 17px
     @media screen and ( max-width: 768px )
         .textbox
             h3
-
+                font-size: 18px
             p
                 padding: 0
         .box
             ul
-
+                display: flex
+                flex-direction: row
     @media screen and ( max-width: 992px )
         .textbox
             p
-                
-        
-        
-        
+                margin: 15px 45px
+                font-size: 19px

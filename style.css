@@ -387,6 +387,25 @@ header .box .textbox h1 {
 #our {
   background-color: rgba(192, 192, 192, 0.1254901961);
 }
+#our .textbox h1 {
+  font-size: 45px;
+  font-weight: 600;
+  margin: 35px 0;
+}
+#our .textbox h3 {
+  font-size: 18px;
+  color: #726f6f;
+  margin-bottom: 35px;
+}
+#our .textbox h2 {
+  font-size: 27px;
+  font-weight: 600;
+}
+#our .textbox h4 {
+  color: #726f6f;
+  font-size: 19px;
+  margin-top: 10px;
+}
 #our .box .imgbox {
   width: 220px;
   border-radius: 50%;
@@ -408,12 +427,52 @@ header .box .textbox h1 {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  border-radius: 30px;
+  background-color: #1a1919;
+  width: 40px;
+  height: 40px;
+  font-size: 17px;
+  margin: 0 12px;
+  color: white;
+}
+#our .box ul li .icon:hover {
+  background-color: #424649;
+  transition: 0.5s;
+}
+#our .textbox p {
+  color: #726f6f;
+  margin-top: 14px;
+  font-size: 19px;
+  margin: 46px 238px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 576px) {
+  #our .textbox h2 {
+    font-size: 24px;
+  }
+  #our .textbox h4 {
+    font-size: 17px;
+  }
 }
 @media screen and (max-width: 768px) {
+  #our .textbox h3 {
+    font-size: 18px;
+  }
   #our .textbox p {
     padding: 0;
   }
+  #our .box ul {
+    display: flex;
+    flex-direction: row;
+  }
 }
+@media screen and (max-width: 992px) {
+  #our .textbox p {
+    margin: 15px 45px;
+    font-size: 19px;
+  }
+}
+
 #sponsors {
   padding: 60px 0;
 }
@@ -436,7 +495,7 @@ header .box .textbox h1 {
 }
 
 #contact {
-  background-image: url(assets/mapimage.png);
+  background-image: url(assets/map-image.png);
   background-color: #212529;
   background-position: center center;
 }
