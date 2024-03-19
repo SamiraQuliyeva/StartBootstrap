@@ -3,12 +3,16 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
+  cursor: pointer;
 }
 
 section {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 header {
@@ -268,7 +272,9 @@ header .box .textbox h1 {
   line-height: 1.4;
 }
 #about .box .imgbox {
-  overflow: hidden;
+  border: 5px solid rgba(135, 129, 129, 0.1921568627);
+  border-radius: 50%;
+  width: 170px;
 }
 #about .right {
   justify-content: end;
