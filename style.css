@@ -56,56 +56,46 @@ header .box .textbox h1 {
 }
 
 #welcome {
-  background-image: url("Assets/header-bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url(Assets/headerbg.jpg);
   background-position: center center;
-  width: 100%;
+  background-size: cover;
+}
+#welcome .box {
   height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#welcome .textbox {
-  margin-top: 86px;
-}
-#welcome .textbox h1 {
-  font-size: 44px;
-  font-weight: 300;
+#welcome .box .textbox h1 {
+  font-size: 40px;
   color: white;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
-#welcome .textbox h2 {
-  font-size: 75px;
+#welcome .box .textbox h2 {
+  font-size: 90px;
   color: white;
+  margin: 0 0 50px 0;
   font-weight: 700;
 }
-#welcome .textbox .btn h3 {
-  margin-top: 69px;
-  color: white;
-  font-size: 19px;
-  font-weight: 700;
-  padding: 20px 55px;
+#welcome .box .textbox .btn {
   background-color: #ffc800;
-  border-radius: 7px;
+  color: white;
+  padding: 18px 40px;
+  font-size: 22px;
+  font-weight: 700;
 }
-@media screen and (max-width: 992px) {
-  #welcome .textbox h1 {
-    font-size: 44px;
-    font-weight: 300;
-    color: white;
-    margin-bottom: 35px;
+#welcome .box .textbox .btn h4 {
+  cursor: pointer;
+}
+#welcome .box .textbox .btn:hover {
+  background-color: #c28d07;
+}
+@media screen and (max-width: 576px) {
+  #welcome .box .textbox h1 {
+    font-size: 35px;
   }
-  #welcome .textbox h2 {
-    font-size: 75px;
-    color: white;
-    font-weight: 700;
-  }
-  #welcome .textbox .btn h3 {
-    margin-top: 69px;
-    color: white;
-    font-size: 19px;
-    font-weight: 700;
-    padding: 20px 55px;
-    background-color: #ffc800;
-    border-radius: 7px;
+  #welcome .box .textbox h2 {
+    font-size: 70px;
   }
 }
 
